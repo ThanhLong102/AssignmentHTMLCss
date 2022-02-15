@@ -1,0 +1,132 @@
+.navbar {
+    max-width: 100%;
+    padding: 20px 20px 30px 20px;
+}
+
+.navbar-left {
+    float: left;
+    margin-left: 2%;
+}
+
+.navbar-right {
+    float: right;
+    margin-right: 2%;
+}
+
+.news {
+    max-width: 100%;
+    height: auto;
+    min-height: 20%;
+}
+
+.img-news {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar {
+        background-color: #536895;
+        color: white;
+    }
+    hr {
+        display: block!important;
+        max-width: 100%;
+        margin: 0 40px 0 40px;
+    }
+    .img-news {
+        display: none;
+    }
+    .news-content {
+        position: static!important;
+        color: black!important;
+        margin-left: 40px;
+        font-size: 20px!important;
+        margin-bottom: 40px;
+    }
+    .news-content p {
+        font-size: 12px;
+        color: grey;
+    }
+    .content {
+        background-color: white!important;
+    }
+    .img-gallery {
+        display: block!important;
+    }
+    .img1 {
+        margin-right: 40px;
+        margin-bottom: 50px!important;
+        object-fit: scale-down;
+    }
+    .footer {
+        display: block!important;
+        background-color: white!important;
+        margin-left: 20px;
+    }
+    .footer-topic {
+        margin-bottom: 40px!important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.news-content {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    font-size: 25px;
+    color: white;
+    z-index: 1;
+}
+
+.content {
+    background-color: darkgrey;
+    padding: 20px 40px 20px 40px;
+}
+
+.img-gallery {
+    display: flex;
+}
+
+.img1 {
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.content .title {
+    margin-bottom: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    padding-bottom: 30px;
+}
+
+.footer-topic {
+    height: auto;
+    margin: 10px 5px 15px 30px;
+}
+
+.footer-content {
+    color: gray;
+    font-size: 12px;
+}
+
+.link-topic {
+    color: #4169e1;
+    text-decoration: underline;
+    font-size: 12px;
+}
+
+h3 {
+    font-size: 18px;
+}
