@@ -21,7 +21,7 @@
 
 .img-news {
     object-fit: cover;
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -93,11 +93,13 @@
 
 .img-gallery {
     display: flex;
+    flex-wrap: row wrap;
 }
 
 .img1 {
     margin-right: 30px;
     margin-bottom: 20px;
+    align-items: stretch;
 }
 
 .content .title {
