@@ -89,17 +89,22 @@
 .content {
     background-color: darkgrey;
     padding: 20px 40px 20px 40px;
+    line-height: 1;
 }
 
 .img-gallery {
     display: flex;
-    flex-wrap: row wrap;
+    flex-wrap: nowrap
 }
 
 .img1 {
     margin-right: 30px;
     margin-bottom: 20px;
     align-items: stretch;
+}
+
+.img2 {
+    object-fit: contain;
 }
 
 .content .title {
@@ -119,6 +124,7 @@
 }
 
 .footer-content {
+    line-height: 1;
     color: gray;
     font-size: 12px;
 }
